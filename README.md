@@ -1,1 +1,5 @@
 # SpringPrograms
+1. CGWalletAppSpringJdbcTemplate
+2. CGWalletAppSpringJPADataHibernate
+3. CGWalletAppSpringJPAHibernate
+4. CGWalletAppSpringMVCTemplate
