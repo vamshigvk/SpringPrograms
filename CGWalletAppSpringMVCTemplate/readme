@@ -1,0 +1,4 @@
+This project helps us to take input from webpages rather than console.
+Do not forgot to add apache tomcat to java build path libraries.
+If apache-tomcat server says cant be started. Goto D drive, search tmp0 folder and delete it, re install server on spring.
+convert java project to maven and update maven project whenever required.
