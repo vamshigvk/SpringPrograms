@@ -1,1 +1,3 @@
 Add JreSystemLibrary[JavaSE1.8] to JavaBuildPath Libraries and Convert java project to maven project and update project in maven whenever required
+
+All JPA libraries required when not using spring maven are in lib folder
