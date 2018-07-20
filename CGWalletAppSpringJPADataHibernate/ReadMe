@@ -1,2 +1,1 @@
-
 Add JreSystemLibrary[JavaSE1.8] to JavaBuildPath Libraries and Convert java project to maven project and update project in maven whenever required
