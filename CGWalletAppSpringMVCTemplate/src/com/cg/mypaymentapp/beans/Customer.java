@@ -14,19 +14,23 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 //import org.hibernate.engine.Cascade;
 
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.beans.factory.annotation.Autowired;
 
 @Entity
 @Table(name="customers")
 //@NamedQueries(@NamedQuery(name = "getAllEmployees", query = "SELECT * FROM Customers where mobileno"))
 public class Customer implements Serializable
-{
+{	
+	@NotEmpty
 	private String name;
 	@Autowired
+	@NotEmpty
 	@Id
 	private String mobileNo;
 	@OneToOne(cascade=CascadeType.ALL)
 	@JoinColumn(name="id")
+	
 	private Wallet wallet;
 	
 	

@@ -18,4 +18,11 @@
 	<property name="suffix" value=".jsp"></property>
 </bean>
 
+<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+<bean id="messageSource" 
+	class="org.springframework.context.support.ReloadableResourceBundleMessageSource"> 
+	<property name="basename" value="/WEB-INF/messages" />
+</bean>
+
 </beans>

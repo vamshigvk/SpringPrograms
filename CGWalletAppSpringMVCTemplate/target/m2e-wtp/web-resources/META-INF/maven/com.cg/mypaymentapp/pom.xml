@@ -11,9 +11,7 @@
   <spring.version>4.3.5.RELEASE</spring.version>
   <hibernate.version>4.3.6.Final</hibernate.version>
   </properties>
- 
- 
- 
+
   <dependencies>
   <dependency>
   <groupId>junit</groupId>

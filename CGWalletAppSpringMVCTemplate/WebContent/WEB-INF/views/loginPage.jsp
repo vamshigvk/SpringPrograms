@@ -6,5 +6,7 @@
 <body>
 <h1>LogIn Page</h1>
 Please enter your login details
+<hr>
+<a href="/mypaymentapp">HomePage</a>
 </body>
 </html>
